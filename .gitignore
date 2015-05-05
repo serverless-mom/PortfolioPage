@@ -24,7 +24,7 @@ Icon
 ._*
 
 #svg images
-*.svg
+#*.svg
 
 # Files that might appear in the root of a volume
 .DocumentRevisions-V100
