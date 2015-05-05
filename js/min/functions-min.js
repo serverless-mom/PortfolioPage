@@ -1,0 +1,1 @@
+$(window).scroll(function(){var r=$(this).scrollTop();$(".logo").css({transform:"translate(0px, "+r/2.2+"%)"}),$(".background-character").css({transform:"translate(0px, "+r/4+"%)"}),$(".foreground-character").css({transform:"translate(0px, "+r/-30+"%)"})});

@@ -1,0 +1,74 @@
+// Base Styles
+
+body
+  font-family: "Open Sans", sans-serif
+
+h1
+  color: #ccc
+  weight: 300
+
+figure
+  margin: auto
+
+.content
+  article
+    padding: 100px 0
+    max-width: 640px
+    margin: 0 auto
+    text-align: center
+
+img
+  max-width: 100%
+
+
+
+// Parallax
+.painting-box
+  position: relative
+  height: 600px
+  background: 
+    image: url(/images/bird-bg.jpg)
+    size: auto 600px
+    position: top center
+    attachment: fixed
+  overflow: hidden
+
+.logo
+  height: 200px
+  width: 100%
+  background:
+    //color: pink
+    image: url(/images/TobLogo.svg)
+    position: center
+    repeat: no-repeat
+    size: auto 150px
+  position: absolute
+  top: 50%
+  margin-top: -100px
+
+.foreground-character
+  width: 960px
+  height: 733px
+  background:
+    //color: transparentize(pink, 0.3)
+    image: url(/images/fore-bird.png)
+    repeat: no-repeat
+    position: right bottom
+  position: absolute
+  left: 50%
+  margin-left: -480px
+  top: 350px
+
+.background-character
+  width: 960px
+  height: 298px
+  background:
+    // color: transparentize(pink, 0.3)
+    image: url(/images/back-bird.png)
+    repeat: no-repeat
+    position: top left
+  position: absolute
+  left: 50%
+  margin-left: -480px
+
+
