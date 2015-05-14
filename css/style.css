@@ -866,6 +866,9 @@ h1 {
 figure {
   margin: auto; }
 
+a {
+  text-decoration: none; }
+
 .content article {
   padding: 100px 0;
   max-width: 640px;
@@ -878,7 +881,7 @@ img {
 .painting-box {
   position: relative;
   height: 600px;
-  background-image: url(/images/bird-bg.jpg);
+  background-image: url(/images/ocean-painting1.jpg);
   background-size: auto 600px;
   background-position: top center;
   background-attachment: fixed;
@@ -887,7 +890,7 @@ img {
 .logo {
   height: 200px;
   width: 100%;
-  background-image: url(/images/TobLogo.svg);
+  background-image: url(/images/toby-logo.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto 150px;
@@ -898,7 +901,7 @@ img {
 .foreground-character {
   width: 960px;
   height: 733px;
-  background-image: url(/images/fore-bird.png);
+  background-image: url(/images/fore-stump.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   position: absolute;
@@ -946,3 +949,50 @@ img {
     padding: 2px 8px;
     font-size: 11px;
     transition: all 0.3s ease-in-out; }
+
+.large-window {
+  margin-bottom: 100px;
+  height: 640px;
+  background-image: url(/images/enemy_cs.gif);
+  background-position: center 0px;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  margin-top: 100px;
+  border-radius: 50%;
+  position: relative; }
+  .large-window .window-tint {
+    background-color: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; }
+  .large-window .promo-text {
+    color: white;
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 1.2; }
+    .large-window .promo-text strong {
+      display: block;
+      font-size: 30px; }
+    .large-window .promo-text span {
+      font-weight: 300;
+      font-size: 18px;
+      font-style: italic;
+      color: rgba(255, 255, 255, 0.6); }
+    .large-window .promo-text .window-cta {
+      display: block;
+      font-size: 20px;
+      text-decoration: none;
+      color: white;
+      border: 1px solid white;
+      padding: 10px 20px;
+      transition: all 0.3s ease-in-out; }
+      .large-window .promo-text .window-cta:hover {
+        background: white;
+        color: black; }

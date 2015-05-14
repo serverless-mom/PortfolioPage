@@ -10,6 +10,9 @@ h1
 figure
   margin: auto
 
+a
+  text-decoration: none
+
 .content
   article
     padding: 100px 0
@@ -27,7 +30,7 @@ img
   position: relative
   height: 600px
   background: 
-    image: url(/images/bird-bg.jpg)
+    image: url(/images/ocean-painting1.jpg)
     size: auto 600px
     position: top center
     attachment: fixed
@@ -38,7 +41,7 @@ img
   width: 100%
   background:
     //color: pink
-    image: url(/images/TobLogo.svg)
+    image: url(/images/toby-logo.svg)
     position: center
     repeat: no-repeat
     size: auto 150px
@@ -51,7 +54,7 @@ img
   height: 733px
   background:
     //color: transparentize(pink, 0.3)
-    image: url(/images/fore-bird.png)
+    image: url(/images/fore-stump.png)
     repeat: no-repeat
     position: right bottom
   position: absolute
@@ -109,4 +112,59 @@ img
     font-size: 11px
     transition: all 0.3s ease-in-out
 
+.large-window
+  margin-bottom: 100px
+  height: 640px
+  background:
+    image: url(/images/enemy_cs.gif)
+    position: center 0px
+    repeat: repeat-y
+    attachment: fixed
+  margin-top: 100px
+  border-radius: 50%
+  position: relative
+
+  .window-tint
+    background-color: rgba(0,0,0,0.85)
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    border-radius: 50%
+    display: flex
+    justify-content: center
+    align-items: center
+    opacity: 0
+
+
+  .promo-text
+    color: white
+    font-weight: 100
+    font-size: 50px
+    line-height: 1.2
+
+    strong
+      display: block
+      font-size: 30px
+
+    span
+      font:
+        weight: 300
+        size: 18px
+        style: italic
+      color: rgba(255,255,255,0.6)
+
+    .window-cta
+      display: block
+      font-size: 20px
+      text-decoration: none
+      color: white
+      border: 1px solid white
+      padding: 10px 20px
+      transition: all 0.3s ease-in-out
+
+      &:hover
+        background: white
+        color: black
 
