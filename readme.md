@@ -1,5 +1,5 @@
 # Portfolio site
-A porfolio of past projects that demonstrates familiarity with a number of current frontend techniques.
+A porfolio of past projects that demonstrates familiarity with a number of current frontend techniques. [See its un-optimized hosting here.](http://demotobyfee.s3-website-us-east-1.amazonaws.com/)
 
 ## Setup
 the index page is created with Jade and then built (in my case) with [CodeKit](https://incident57.com/codekit/)
